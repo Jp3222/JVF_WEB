@@ -3,59 +3,78 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Hojas de estilo en cascada-->
 	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="styles/cabecera.css">
+	<!--scrip-->
+	<script src="scripts/vistas.js"></script>
+	<!--icono-->
+	<link rel="icon" href="img/Icono2.png">
 	<title>JVF</title>
 </head>
-
 <body>
 
 	<div class="root">
-
+	
 		<div class="titulo">
-		
-			<h1>VCode</h1>
-		
 			<nav class="menu">
-		
 				<ul>
-		
-					<li><a href="html/academia.html">academia</a></li>
-		
-					<li><a href="html/conocenos.html">Conocenos</a></li>
-		
-					<li><a href="html/inicio.html">Inicio de sesion</a></li>
-		
+					<li onclick="getAcademia()">academia</li>
+					<li onclick="getConocenos()">Conocenos</li>
+					<li onclick="getRegistro()">Inicio de sesion</li>
 				</ul>
-		
 			</nav>
-		
 		</div>
-
-		<div class="secciones">
-			
-			<section id="noticias">
+	
+		<div class="secciones">		
+			<div>
 				<h1>noticias</h1>
-			</section>
+				<section>
+				</section>
 			
-			<section id="ofertas">
-				<h1>ofertas</h1>
-			</section>
-			
-			<section id="proli">
-				<h1>proyectos libres</h1>
-			</section>
+			</div>	
+
+			<div>
 		
+				<h1>ofertas laborales</h1>
+
+				<section>
+			
+				</section>
+			
+			</div>	
+
+			<div>
+		
+				<h1>noticias</h1>
+
+				<section>
+			
+				</section>
+			
+			</div>	
+
 		</div>
 
 		<div class="pie">
-		
+			<div class="redes">
+				<a href="https://www.facebook.com">
+					<img src="/img/facebook.png">
+				</a>
+				<a href="https://www.instagram.com/">
+					<img src="img/instagram.png">
+				</a>
+				<a href="">
+					<img src="img/whatsapp.png">
+				</a>
+				<a href="https://twitter.com">
+					<img src="img/gorjeo.png">
+				</a>
+			</div>
 			<footer>
-		
 				<h1>© Copyright 2022 VCode - Todos los Derechos Reservados</h1>
 				<h1>Última actualización: 04/03/2022</h1>
-
 			</footer>
-		
 		</div>
 
 	</div>

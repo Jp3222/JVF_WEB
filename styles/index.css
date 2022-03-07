@@ -1,40 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-/*titulo*/
-.titulo{
-    background-color: #0088CC;
-    text-align: center;
-}
-/*menu*/
-.menu {
-    text-align: right;
-}
-.menu li{
-    list-style: none;
-    display: inline-block;
-    margin: 1%;
-    padding: 1%;
-    font-size: 17px;
-    color: black;
-}
 /*secciones*/
-.secciones section {
+.secciones h1{
     text-align: center;
-    margin: 2%;
-    border: 1px solid black;
-    border-radius: 1%;
-    height: 300px;
-
-}
-/*pie de pagina*/
-.pie {
     background-color: #0088CC;
+    margin: 1%;
+    border-radius: 10px;
+}
+.secciones section{
+    height: 300px;
+    border: 1px solid black;
+    margin: 1%;
 }
 
-footer h1 {
-    text-align: center;
-    font-size: 17px;
-    margin-top: 1%;
-}
+

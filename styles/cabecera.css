@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*titulo*/
+.titulo{
+    background-color: #0088CC;
+}
+
+/*menu*/
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    font-size: 17px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.menu li:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.menu li:active{
+    background-color: white;
+    color: black;
+}
+
+
+/*pie de pagina*/
+.pie {
+    background-color: #0088CC;
+}
+
+.redes{
+    text-align: right;
+}
+
+.redes a img{
+    height: 40px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 1%;
+}
