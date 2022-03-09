@@ -31,7 +31,12 @@
     background-color: #0088CC;
     color: white;
 }
-
+.login button:hover {
+    margin-top: 40px;
+    border: 1px solid blueviolet;
+    background-color: #0088CC;
+    color: white;
+}
 .login .registro{
     margin-top: 30%;
 }
