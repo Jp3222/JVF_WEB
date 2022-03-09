@@ -1,0 +1,40 @@
+.login {
+    height: 450px;
+    width: 30%;
+    border: 3px solid #0088CC;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+}
+.login .form,.registro h3{
+    text-align: center;
+    padding: 5%;
+}
+.login input, button {
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.login input{
+    border: 2px solid #0088CC;
+}
+.login button {
+    margin-top: 40px;
+    border: 1px solid blueviolet;
+    background-color: #0088CC;
+    color: white;
+}
+
+.login .registro{
+    margin-top: 30%;
+}
+.login .registro button{
+    margin-top: 0%;
+}
