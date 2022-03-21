@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Hojas de estilo en cascada-->
+	<link rel="stylesheet" href="/web/styles/login.css">
+	<link rel="stylesheet" href="/web/styles/cabecera.css">
+    <link rel="stylesheet" href="/web/styles/formulario.css">
+	<!--scrip-->
+	<script src="/web/scripts/vistas.js"></script>
+	<!--icono-->
+	<link rel="icon" href="/web/img/Icono2.png">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+
+        <div class="titulo">
+			<nav class="menu">
+				<ul>
+					<li onclick="getAcademia()">Academia</li>
+					<li onclick="getConocenos()">Conocenos</li>
+					<li onclick="getRegistro()">Inicio de sesión</li>
+				</ul>
+			</nav>
+		</div>
+	
+        <!--contenido-->
+        
+        <form class="form">
+
+            <h2 class="form_title">Registrate</h2>
+            <p class="form_paragraph">¿Ya tienes cuenta? <a href="login.html" class="form_link">Entra aquí</a></p>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="nombre" class="form_input" placeholder=" ">
+                    <label for="nombre" class="form_label">Nombre </label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="apellidos" class="form_input" placeholder=" ">
+                    <label for="apellidos" class="form_label">Apellidos </label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="date" id="fechanacimiento" class="form_input" placeholder=" ">
+                    <label for="fechanacimiento" class="form_label">Fecha de nacimiento </label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="experiencia" class="form_input" placeholder=" ">
+                    <label for="experiencia" class="form_label">Experiencia</label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="telefono" class="form_input" placeholder=" ">
+                    <label for="telefono" class="form_label">Telefono</label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="correo" class="form_input" placeholder=" ">
+                    <label for="correo" class="form_label">Correo</label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="usuario" class="form_input" placeholder=" ">
+                    <label for="usuario" class="form_label">Usuario </label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="contrasenia" class="form_input" placeholder=" ">
+                    <label for="contrasenia" class="form_label">Contraseña </label>
+                    <span class="form_line"></span>
+                </div>
+            </div>
+
+            <input type="submit" class="form_submit" value="Entrar">
+
+
+        </form>
+
+
+        <!--pie-->
+        <div class="pie">
+			<div class="redes">
+				<a href="https://www.facebook.com">
+					<img src="/web/img/facebook.png">
+				</a>
+				<a href="https://www.instagram.com/">
+					<img src="/web/img/instagram.png">
+				</a>
+				<a href="">
+					<img src="/web/img/whatsapp.png">
+				</a>
+				<a href="https://twitter.com">
+					<img src="/web/img/gorjeo.png">
+				</a>
+			</div>
+			<footer>
+				<h1>© Copyright 2022 VCode - Todos los Derechos Reservados</h1>
+				<h1>Última actualización: 04/03/2022</h1>
+			</footer>
+		</div>
+
+    </div>
+</body>
+</html>
