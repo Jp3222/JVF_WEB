@@ -1,3 +1,9 @@
+nav {
+    text-align: center;
+    color: whitesmoke;
+    font: bold 20spx verdana;
+}
+
 .conocenos{
     width: 1000px;
     margin-left: auto;

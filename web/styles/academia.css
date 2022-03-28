@@ -1,3 +1,9 @@
+nav {
+    text-align: center;
+    color: whitesmoke;
+    font: bold 20spx verdana;
+}
+
 .opciones{
     background-color: #0088CC;
     margin: 10px;
