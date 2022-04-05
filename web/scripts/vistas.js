@@ -1,15 +1,20 @@
+function getRegistro() {
+    setTimeout(() => {
+        window.location.href="/web/html/registro.html";
+    },0);    
+}
 function getAcademia(){
     setTimeout(() => {
         window.location.href="/web/html/academia.html";
-    },2000);
+    },0);
 }
 function getConocenos() {    
     setTimeout(() => {
     window.location.href="/web/html/conocenos.html";
-    },2000);
+    },0);
 }
-function getRegistro() {
+function getLogin() {
     setTimeout(() => {
     window.location.href="/web/html/login.html";
-    },2000);
+    },0);
 }
