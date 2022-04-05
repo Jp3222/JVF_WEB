@@ -1,4 +1,9 @@
 /*secciones*/
+nav {
+    text-align: center;
+    color: whitesmoke;
+    font: bold 20spx verdana;
+}
 .secciones h1{
     text-align: center;
     background-color: #0088CC;
